@@ -21,7 +21,7 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.157.131:3308/mianshiya
+    url: jdbc:mysql://192.168.188.129:3308/mianshiya
     username: root
     password: 123456
   # Redis 配置
@@ -100,4 +100,4 @@ knife4j:
       default:
         api-rule: package
         api-rule-resources:
-          - com.yupi.mianshiya.controller
+          - com.raopan.mianshiya.controller
